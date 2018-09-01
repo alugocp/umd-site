@@ -1,0 +1,3 @@
+# UMD-Centric Resume Website
+I built this mainly just for **TerpConnect** and **UMIACS**...
+Also because I was bored.

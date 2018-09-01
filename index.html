@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+  Eh, who's there?
+  A hacker? An enthusiast?
+  Well in any case you'll be subject to my ramblings so strap in.
+  This is gonna be a bumpy ride.
+-->
+<html>
+<head>
+  <title>TerpConnect: Alex Lugo</title>
+  <meta charset="utf-8">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/scrolling.js"></script>
+  <link rel="stylesheet" href="styles/content.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <!-- "Style? Why yes sir, I have tons of it" (an actual thing I said to a police officer once) -->
+</head>
+<body>
+  <div class="navbar">
+    <label class="link" dest="top">
+      <img class="icon" src="icons/home.svg" title="home">
+    </label> |
+    <label class="link" dest="intro">About</label> |
+    <label class="link" dest="school">School</label> |
+    <label class="link" dest="skills">Skills</label> |
+    <label class="link" dest="exp">Portfolio</label> |
+    <label class="link" dest="contact">Contact</label>
+
+    <a href="http://alexlugo.net" target="_blank" class="link right">
+      <img class="icon" src="icons/public.svg" title="Resume website">
+    </a>
+    <a href="http://alexlugo.net/webdesign" target="_blank" class="link right">
+      <img class="icon" src="icons/work.svg" title="Web development site">
+    </a>
+    <a href="https://github.com/alugocp" target="_blank" class="link right">
+      <img class="icon" src="icons/github.svg" title="GitHub">
+    </a>
+  </div>
+  <img class="header" src="images/umd-span.jpg" id="top">
+  <img class="profile" src="images/alex.jpg">
+  <div class="main">
+    <div class="content">
+      <h1 id="intro"><img class="icon" src="icons/account.svg"> About Me</h1>
+      <p>I'll try to keep this short and sweet:</p>
+      <p>
+        My name is Alex Lugo and I'm a sophomore studying Computer Science at the University of Maryland in College Park.
+        I made this website for my TerpConnect and UMIACS static hosting spaces on campus.
+        If you're reading this, it's probably because you're reviewing my resume.
+        Let me show you around.
+      </p>
+      <p>
+        Welcome to my UMD-centric resume website.
+        The navbar above will help you locate each individual section (not that they're very hard to find, but I like navbars).
+        I've put all the standard resume stuff on this site, including education, skills and contact information.
+        On the right side of the navbar you'll find icons that link to some of my other websites.
+      </p>
+      <hr>
+
+      <h1 id="school"><img class="icon" src="icons/school.svg"> Education</h1>
+      <p>
+        First thing's first I'm a Terp (as if the color scheme didn't already give it away, right?)
+        However I can be bribed to make a website for some other school if you ask nicely enough.
+        I'm pursuing an undergraduate degree in Computer Science but my academic interests range from entrepreneurship to psychology and anthropology.
+        I try to incorporate these other fields into my projects because who wants to keep working on the same stuff all their lives? Certainly not I.
+      </p>
+      <p>
+        After I get my undergraduate and master's degree I think I'll leave school for a few years and then come back for a PhD.
+        "Dr.Lugo" just sort of rolls off the tongue, it pleases me.
+        I'm set on an eventual PhD mostly for the research benefits.
+        I'm working on research right now, but if I ever want to be taken seriously in the community I should at least pursue a doctorate degree.
+      </p>
+      <hr>
+
+      <h1 id="skills"><img class="icon" src="icons/code.svg"> Skills</h1>
+      <p>
+        I've been programming since I was 10 years old.
+        The first few programs I ever built were made in Ruby with <span class="code">puts</span> and <span class="code">gets.chomp</span>.
+        Eventually I moved on to web and scripting languages.
+        I've built mobile and browser-based games, web applications, static sites, command line tools, scripts and desktop apps.
+        It's been a long journey, but I've got experience in the following languages to show for it:
+      </p>
+      <table class="code">
+        <tr><td>HTML</td><td>CSS</td><td>JavaScript</td></tr>
+        <tr><td>Bash</td><td>Ruby</td><td>Python</td></tr>
+        <tr><td>Java</td><td>C</td><td>C++</td></tr>
+        <tr><td>PHP</td><td>Node</td><td>R</td></tr>
+        <tr><td>SQL</td><td></td><td></td></tr>
+      </table>
+      <p>
+        This may seem like a lot but I'm far from done learning.
+        There are so many different language nuances and paradigms I want to explore in the coming years.
+        Not to mention software platforms and scripting language modules.
+        I've even got a few languages of my own that I want to invent, so I'll even add those to the list once I get around to them.
+      </p>
+      <p>The next languages on my reading list are: OCaml, Rust, Scala, Groovy and Julia</p>
+      <hr>
+
+      <h1 id="exp"><img class="icon" src="icons/extension.svg"> Portfolio</h1>
+      <p>
+        I primarily market myself as a web developer but I'm perfectly fine with developing just about anything.
+        Herre are a few of the more notable websites I've built over the years:
+      </p>
+      <ul>
+        <li><a target="_blank" href="https://www.chriscobbs.com/">Chris Cobbs's website</a>: I built a website for one of President Obama's ex-aides. He wanted something sleek and minimalist so I went with a more refined design with navy blue highlights.</li><br>
+        <li><a target="_blank" href="https://alugocp.github.io/ws-page/">WebStatic</a>: I built a JavaScript framework for static web development between my freshman and sophomore years of college. The framework is called WebStatic and you can learn about it from its very own site (also built by me)</li><br>
+        <li><a target="_blank" href="https://alugocp.github.io/toolbox/">Toolbox</a>: Toolbox is the first web application I ever published. Its Flask server runs on my PythonAnywhere account and allows users to view/download all the developer tools I've built.</li><br>
+        <li><span class="code">Project Cyan</span>: I'm currently working on a web application that will make research more streamlined. Project Cyan is an app that generates literature reading lists based on scientific citation networks. This is my first app to feature a database in its backend and I'm super excited to announce the public beta release after I make a few adjustments.</li>
+      </ul>
+      <p>
+        You can view my other projects on my main resume website and web developer page.
+        Links to both sites are accessible from the navbar.
+      </p>
+      <hr>
+
+      <h1 id="contact"><img class="icon" src="icons/move_to_inbox.svg"> Contact</h1>
+      <p>
+        I'm pretty easy to contact, provided you go through social media or my UMD email.
+        If you're reviewing me for a UMD job position then you should already have that email so I won't put it up here, but below you'll find links to all my social media accounts:
+      </p>
+      <table><tr>
+        <td><a target="_blank" href="https://twitter.com/alugocp">
+          <img class="icon" src="icons/twitter.svg" title="Twitter">
+        </a></td>
+        <td><a target="_blank" href="https://www.facebook.com/alex.lugo.5621">
+          <img class="icon" src="icons/facebook.svg" title="Facebook">
+        </a></td>
+        <td><a target="_blank" href="https://www.linkedin.com/in/alex-lugo-0938707b/">
+          <img class="icon" src="icons/linkedin.svg" title="Linkedin">
+        </a></td>
+        <td><a target="_blank" href="https://www.instagram.com/alugocp1/">
+          <img class="icon" src="icons/instagram.svg" title="Instagram">
+        </a></td>
+      </tr></table>
+      <p>
+        If you don't have my UMD email or any of these social media, you can email me at alugocp@aim.com.
+        I hardly ever check this email though, so if I see your message I'll give you the email I check more regularly.
+        Your best bet in any case is to just use social media to get a hold of me.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

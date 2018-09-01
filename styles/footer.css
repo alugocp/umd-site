@@ -1,0 +1,12 @@
+.footer{
+  background-color:var(--gray);
+  left:0;
+  padding:5px;
+  width:calc(100% - 10px);
+  height:30px;
+  font-size:20px;
+  color:white;
+}
+.footer a{
+  color:var(--red);
+}

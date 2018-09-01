@@ -1,0 +1,24 @@
+body{
+  background-color:var(--cream);
+  overflow-x:hidden;
+}
+
+.profile{
+  z-index:2;
+  width:calc(var(--img-rad) * 2);
+  height:calc(var(--img-rad) * 2);
+  border-radius:100%;
+  border:solid 15px var(--red);
+  position:absolute;
+  left:calc(50% - var(--img-rad));
+  top:calc(calc(var(--head-height) - var(--img-rad)) - 7.5px);
+}
+
+.header{
+  position:absolute;
+  z-index:-1;
+  height:var(--head-height);
+  min-width:100%;
+  left:0;
+  top:0;
+}
